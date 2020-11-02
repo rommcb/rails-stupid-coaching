@@ -1,0 +1,44 @@
+// Place all the styles related to the questions controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+$light-gray: rgba(0,0,0,0.2);
+$yellow: #FFFFE1;
+$blue:#72A3CD;
+$dark-blue: #337AB7;
+
+.card {
+    padding: 5px 20px;
+    margin: 20px 0;
+    border-radius: 0;
+    border: none;
+    border-left: 6px solid $light-gray;
+    p {
+        margin: 6px;
+    }
+    .speaker {
+        font-style: italic;
+    }
+}
+
+.coach-card {
+    background-color: $yellow;
+}
+
+a {
+    color: $blue;
+    &:hover {
+        color: black;
+      }
+}
+
+.my-container{
+    width: 400px;
+}
+
+.btn-primary {
+    background-color: $dark-blue;
+    &:hover {
+        background-color: black;
+      }
+}
